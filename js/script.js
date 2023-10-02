@@ -39,8 +39,8 @@ const showDetails = async (categoryId) =>{
       <div class="card-body">
         <h2 class="card-title">${news?.title}</h2>
         <div class="flex justify-center">
-       <div>
-        <figure><img  class="rounded-full w-16"  src="${news?.authors[0].profile_picture}" /></figure>
+       <div class="w-16 h-11">
+        <figure><img  class=" w-9/12 h-8  rounded-full"  src="${news?.authors[0].profile_picture}" /></figure>
         </div>
         <h2 class="items-center m-auto ml-2">${news?.authors[0].profile_name}</h2> 
 
